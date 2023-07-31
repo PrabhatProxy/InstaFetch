@@ -39,7 +39,7 @@ def fetch_likes_for_links(input_file, output_dir):
         print(f"Likes fetched successfully for Entry Number {entry_number} and saved to '{output_file}'.")
 
 if __name__ == "__main__":
-    input_file = "31-40.csv"  # Replace with the CSV file containing 'Entry Number' and 'Link' columns
+    input_file = "compare_bulk.csv"  # Replace with the CSV file containing 'Entry Number' and 'Link' columns
     output_dir = "out"  # Replace with the directory where you want to save the output CSV files
 
     # Create an instance of Instaloader and login
