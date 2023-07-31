@@ -21,7 +21,7 @@ def check_ids_exist(file_a, file_b):
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        print("Usage: python match.py A.csv B.csv")
+        print("Usage: python compare_single.py A.csv B.csv")
         sys.exit(1)
 
     file_a = sys.argv[1]
